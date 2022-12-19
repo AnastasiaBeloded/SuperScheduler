@@ -31,7 +31,7 @@ public class LoginScreen extends BaseScreen{
     public LoginScreen fillPassword(String password){
         type(passwordEditText,password);
         return this;
-    }
+    }///hreherh
 
     public HomeScreen submitLogin(){
         driver.hideKeyboard();
